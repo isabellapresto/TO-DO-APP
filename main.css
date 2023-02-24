@@ -1,0 +1,49 @@
+
+* {
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+
+#header {
+ margin: 30px;
+}
+
+.allContent {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin: 100px;
+ font-family: 'Gloock', serif;
+} 
+
+.eraseBtn {
+ /* background-color: white; */
+ border: none;
+}
+
+.item-description{
+ padding:5px;
+ width: 200px;
+ margin-bottom: 10px;;
+ border: none;
+ border-bottom:1px solid black ;
+ font-family: 'Gloock', serif;
+}
+
+.item-completed:checked + .item-description {
+ /* background-color: #dddddd; */
+ text-decoration: line-through;
+}
+
+#add {
+ padding: 8px 14px;
+ border-radius: 20px;
+ color:#ffffff;
+ background: black;
+ cursor: pointer;
+ border: none;
+ font-family: 'Gloock', serif;
+ margin:30px
+}
+
